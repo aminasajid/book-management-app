@@ -7,7 +7,7 @@ function ViewBook() {
   const dispatch = useDispatch();
   const books = useSelector((state) => state.books.books); 
 
-  // Function to handle delete action
+  
   const handleDelete = (bookId) => {
     if (window.confirm("Are you sure you want to delete this book?")) {
       dispatch(deleteBook(bookId)); 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ViewBook from '../Components/ViewBook';
 import { Button, FloatingLabel, Form, Modal, Row, Container } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../slices/bookSlice'; // Adjust the import path as necessary
+import { addBook } from '../slices/bookSlice'; 
 
 function Home() {
   const [show, setShow] = useState(false);
